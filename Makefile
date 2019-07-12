@@ -1,6 +1,6 @@
 SCRIPTS_DIRNAME="scripts"
 
-.PHONY: dev_image
+.PHONY: image
 image:
 	./$(SCRIPTS_DIRNAME)/build_image.sh
 
